@@ -1,0 +1,206 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:Arial,sans-serif;
+  background:#000;
+  color:#fff;
+  line-height:1.7;
+}
+
+.container{
+  width:90%;
+  max-width:1200px;
+  margin:auto;
+}
+
+.hero{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  border-bottom:1px solid #222;
+}
+
+.tag{
+  color:#888;
+  letter-spacing:4px;
+  text-transform:uppercase;
+  margin-bottom:20px;
+}
+
+h1{
+  font-size:72px;
+  margin-bottom:20px;
+}
+
+h2{
+  font-size:32px;
+  color:#ccc;
+  margin-bottom:30px;
+}
+
+.description{
+  color:#999;
+  font-size:20px;
+  max-width:900px;
+  margin:auto;
+}
+
+.buttons{
+  margin-top:50px;
+}
+
+.buttons a{
+  display:inline-block;
+  margin:10px;
+  padding:14px 24px;
+  border:1px solid #333;
+  border-radius:16px;
+  text-decoration:none;
+  color:#fff;
+  transition:0.3s;
+}
+
+.buttons a:hover{
+  border-color:#fff;
+}
+
+.section{
+  padding:120px 0;
+}
+
+.dark{
+  background:#0a0a0a;
+}
+
+h3{
+  font-size:52px;
+  margin-bottom:60px;
+  text-align:center;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:30px;
+}
+
+.card{
+  background:#111;
+  padding:40px;
+  border-radius:24px;
+  border:1px solid #222;
+}
+
+.card h4{
+  margin-bottom:20px;
+  font-size:28px;
+}
+
+.card p{
+  color:#bbb;
+  font-size:18px;
+}
+
+.skills{
+  display:flex;
+  flex-wrap:wrap;
+  gap:16px;
+  justify-content:center;
+}
+
+.skills span{
+  padding:14px 24px;
+  border-radius:999px;
+  background:#111;
+  border:1px solid #333;
+}
+
+.experience-card{
+  background:#111;
+  border:1px solid #222;
+  border-radius:24px;
+  padding:40px;
+  margin-bottom:30px;
+}
+
+.experience-header{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:30px;
+}
+
+.experience-header h4{
+  font-size:32px;
+}
+
+.experience-header p{
+  color:#aaa;
+}
+
+.date{
+  color:#777;
+}
+
+.experience-card ul{
+  padding-left:20px;
+}
+
+.experience-card li{
+  margin-bottom:16px;
+  color:#ccc;
+}
+
+.tech-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:20px;
+}
+
+.tech-grid div{
+  background:#111;
+  border:1px solid #333;
+  padding:24px;
+  border-radius:18px;
+  text-align:center;
+}
+
+footer{
+  border-top:1px solid #222;
+  text-align:center;
+  padding:50px 20px;
+  color:#888;
+}
+
+@media(max-width:768px){
+
+  h1{
+    font-size:48px;
+  }
+
+  h2{
+    font-size:24px;
+  }
+
+  h3{
+    font-size:40px;
+  }
+
+  .grid{
+    grid-template-columns:1fr;
+  }
+
+  .tech-grid{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .experience-header{
+    flex-direction:column;
+    gap:10px;
+  }
+}

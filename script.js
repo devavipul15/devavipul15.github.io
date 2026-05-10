@@ -1,0 +1,1 @@
+console.log('Vipul Deva Portfolio Loaded Successfully');
